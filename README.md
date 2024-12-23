@@ -1,12 +1,13 @@
 ### Hi there 👋
 
-![Profile Views](https://komarev.com/ghpvc/?username=TM-threemavithana&color=blue&style=flat-square)
-![Followers](https://img.shields.io/github/followers/TM-threemavithana?style=social)
-![Stars](https://img.shields.io/github/stars/TM-threemavithana?style=social)
+![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTM-threemavithana%2FTM-threemavithana&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
 
-![Repo Size](https://img.shields.io/github/repo-size/TM-threemavithana/TM-threemavithana?color=purple&label=Repo%20Size&style=plastic)
-![License](https://img.shields.io/github/license/TM-threemavithana/TM-threemavithana?color=purple&label=License&style=plastic)
-![Author](https://img.shields.io/static/v1?label=Author&message=Tharuka%20Madhuwantha%20Threemavithana&color=purple&style=plastic)
+![forks](https://img.shields.io/github/forks/TM-threemavithana/TM-threemavithana?label=Forks&style=social)
+![stars](https://img.shields.io/github/stars/TM-threemavithana/TM-threemavithana?style=social)
+
+![size](https://img.shields.io/github/repo-size/TM-threemavithana/TM-threemavithana?color=purple&label=Repo%20Size&style=plastic)
+![license](https://img.shields.io/github/license/TM-threemavithana/TM-threemavithana?color=purple&label=License&style=plastic)
+![developer](https://img.shields.io/static/v1?label=Author&message=Tharuka%20Madhuwantha%20Threemavithana&color=purple&style=plastic)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Young+Serif&pause=1000&color=8706E1FF&center=true&vCenter=true&width=435&lines=Hey+I'm+Tharuka+Madhuwantha+Threemavithana;Don't+Forget+To+Follow+Me...)](https://git.io/typing-svg)
 
@@ -20,14 +21,12 @@
 ### About Me
 
 - 😊 I’m Tharuka Madhuwantha Threemavithana
-- 👦🏻 I'm [Your Age] years old
+- 👦🏻 I'm 23 years old
 - 👀 I’m interested in HTML, CSS, JavaScript, C++, Hacking, Web Development, and more...
 - 🌱 I’m currently pursuing a degree in Computer Engineering.
-- 🕺 I'm also a member of [Relevant Organizations or Communities].
 - 💞️ I’m looking to collaborate on building websites and web apps, developing Linux tools, Linux server operations, and more...
-- 📫 Email me at [Your Email] to get in touch.
-- 🤩 Follow me on Instagram [Your Instagram URL]
-- 💬 Text me on WhatsApp [Your WhatsApp Number]
+- 📫 Email me at tharukamaduwantha62@gmail.com to get in touch
+- 💬 Text me on WhatsApp 0716993022
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=TM-threemavithana)](https://github.com/ryo-ma/github-profile-trophy)
 
