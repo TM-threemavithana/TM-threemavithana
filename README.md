@@ -1,22 +1,18 @@
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
-<h1 align="center">Hi 👋, I'm Threema Vithana</h1>
+<h1 align="center">Hi 👋, I'm Threemavithana</h1>
 <h3 align="center">The Journey of a Passionate Sri Lankan Full-Stack Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=TM-threemavithana&label=Profile%20views&color=0e75b6&style=flat" alt="TM-threemavithana" /> </p>
 <img src="https://user-images.githubusercontent.com/74038190/212746035-d5c61762-973c-44c0-aec7-887f3b7690e3.gif" align="right" width="400">
 <p align="left"> <a href="https://twitter.com/yourtwitter" target="blank"><img src="https://img.shields.io/twitter/follow/yourtwitter?logo=twitter&style=for-the-badge" alt="yourtwitter" /></a> </p>
 
-- 🔭 I’m currently working on **Healthcare**
+
 
 - 🌱 I’m currently learning **University Of Ruhuna**
 
-- 👯 I’m looking to collaborate on [RedCypher App](redcypher.org)
-
-- 🤝 I’m looking for help with **Real Time Chat App**
-
 - 💬 Ask me about **MERN|MEAN|Flutter|.NET|Java|SpringBoot**
 
-- 📫 How to reach me **your-email@gmail.com**
+- 📫 How to reach me **tharukamaduwantha62@gmail.com**
 
 - ## 🔧 Technologies & Tools
 
@@ -49,31 +45,6 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=TM-threemavithana&theme=nord&column=auto)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🗂️ Highlight Projects
-
-<a href="https://github.com/TM-threemavithana/rootcode-tech-triathlon">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=rootcode-tech-triathlon&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/TM-threemavithana/uor-techno23">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=uor-techno23&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/TM-threemavithana/StudentRegistration_system">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=StudentRegistration_system&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/TM-threemavithana/DSA_PROJECT_YASH">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=DSA_PROJECT_YASH&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/TM-threemavithana/project_3D_developer_portfolio">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=project_3D_developer_portfolio&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
-
-<a href="https://github.com/TM-threemavithana/GEMS_Web_Team_Frontend_Task">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TM-threemavithana&repo=GEMS_Web_Team_Frontend_Task&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
-</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
