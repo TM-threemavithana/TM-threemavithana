@@ -82,25 +82,18 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TM-threemavithana&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TM-threemavithana&theme=tokyonight" width="32%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TM-threemavithana&theme=tokyonight" width="32%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TM-threemavithana&theme=tokyonight&hide_border=true" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TM-threemavithana&theme=default&hide_border=true" width="70%" />
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TM-threemavithana&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TM-threemavithana&theme=tokyonight" width="96%" />
+  <img src="https://img.shields.io/badge/564%2B_Contributions-2026-0e75b6?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-Systems_Engineer-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_%26_Security-Researcher-FF4444?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Full--Stack-Developer-339933?style=for-the-badge&logo=node.js&logoColor=white" />
 </p>
 
 ---
