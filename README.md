@@ -18,7 +18,7 @@
 - 🌱 Currently exploring **Go systems programming**, **LLM security**, and **Big Data pipelines**
 - 💬 Ask me about **Go · MERN · Flutter · Python · AWS · PostgreSQL**
 - 📫 Reach me at **tharukamaduwantha62@gmail.com**
-- 🔗 Connect on **[LinkedIn]([https://www.linkedin.com/in/tharuka-madhuwantha/])** 
+- 🔗 Connect on **[LinkedIn](https://www.linkedin.com/in/tharuka-madhuwantha/)**
 
 ---
 
@@ -103,7 +103,7 @@
 ## 🤝 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank">
+  <a href="https://www.linkedin.com/in/tharuka-madhuwantha/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:tharukamaduwantha62@gmail.com">
