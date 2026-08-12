@@ -81,9 +81,9 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=TM-threemavithana&show_icons=true&theme=default&hide_border=true&cache_seconds=86400&icon_color=58A6FF" width="70%" />
-</p>
+<p><img align="left" src="https://github-stats-extended.vercel.app/api/top-langs?username=TM-threemavithana&show_icons=true&locale=en&layout=compact&theme=default" alt="TM-threemavithana" /></p>
+<p>&nbsp;<img align="center" src="https://github-stats-extended.vercel.app/api?username=TM-threemavithana&show_icons=true&locale=en&theme=default" alt="TM-threemavithana" /></p>
+<p><img align="center" src="https://streak-stats.demolab.com/?user=TM-threemavithana&theme=default" alt="TM-threemavithana" /></p>
 
 ---
 
