@@ -65,7 +65,7 @@
 | 🧠 [**intellidocs**](https://github.com/TM-threemavithana/intellidocs) | AI document intelligence platform with RAG pipeline | TypeScript · Docker · LLM |
 | 🏷️ [**Mern-Auction-Platform**](https://github.com/TM-threemavithana/Mern-Auction-Platform) | Real-time online auction platform with bidding engine | MongoDB · Express · React · Node |
 | ☁️ [**laravel-saas**](https://github.com/TM-threemavithana/laravel-saas) | Production-ready multi-tenant SaaS platform | PHP · Laravel · TailwindCSS · Docker |
-| 📦 [**smart-inventory**](https://github.com/TM-threemavithana/smart-inventory) | Enterprise inventory & order system — Azure CI/CD, serverless, full observability | TypeScript · Azure · Do[...] 
+| 📦 [**smart-inventory**](https://github.com/TM-threemavithana/smart-inventory) | Enterprise inventory & order system — Azure CI/CD, serverless, full observability | TypeScript · Azure · Docker |
 
 ---
 
@@ -73,16 +73,16 @@
 
 | Project | My Role | Description | Stack |
 |---|---|---|---|
-| 🎫 [**EventNet-micro**](https://github.com/MadhawaRathnayake/EventNet-micro) | Contributor | Cloud-native event ticket booking platform deployed on Azure Kubernetes Service with full CI/CD via[...]
-| 🔍 [**Counterfeit-Currency-Detection**](https://github.com/Asitha0012/Counterfeit-Currency-Detection-using-Image-Processing) | Contributor | Detects counterfeit currency notes using computer v[...]
-| 🤖 [**sales_agent**](https://github.com/TM-threemavithana/sales_agent) | Contributor | Agentic multi-turn sales assistant built on LangGraph with hybrid RAG product search | Python · LangGrap[...] 
+| 🎫 [**EventNet-micro**](https://github.com/MadhawaRathnayake/EventNet-micro) | Contributor | Cloud-native event ticket booking platform deployed on Azure Kubernetes Service with full CI/CD via GitHub Actions and Terraform | Java · Spring Boot · React · AKS |
+| 🔍 [**Counterfeit-Currency-Detection**](https://github.com/Asitha0012/Counterfeit-Currency-Detection-using-Image-Processing) | Contributor | Detects counterfeit currency notes using computer vision and image processing techniques | Python · OpenCV |
+| 🤖 [**sales_agent**](https://github.com/TM-threemavithana/sales_agent) | Contributor | Agentic multi-turn sales assistant built on LangGraph with hybrid RAG product search | Python · LangGraph · FastAPI |
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TM-threemavithana&show_icons=true&theme=default&hide_border=true" width="70%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TM-threemavithana&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&icon_color=58A6FF" width="70%" />
 </p>
 
 ---
