@@ -83,19 +83,19 @@
 
 <p align="center">
   <img
-    src="https://github-stats-extended.vercel.app/api?username=TM-threemavithana&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;cache_seconds=86400&amp;icon_color=1F6FEB"
+    src="https://github-stats-extended.vercel.app/api?username=TM-threemavithana&show_icons=true&theme=default&hide_border=true&cache_seconds=86400&icon_color=1F6FEB"
     alt="TM-threemavithana's GitHub stats"
     width="495"
   />
-</p>
-<p align="center">
+
+  <br/>
+
   <img
-    src="https://streak-stats.demolab.com/?user=TM-threemavithana&amp;theme=default&amp;hide_border=true&amp;fire=1F6FEB&amp;ring=1F6FEB"
-    alt="TM-threemavithana's GitHub streak stats"
+    src="https://streak-stats.demolab.com?user=TM-threemavithana&theme=default&hide_border=true"
+    alt="TM-threemavithana's GitHub streak"
     width="495"
   />
 </p>
----
 
 ## 🏆 Achievements
 
