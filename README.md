@@ -87,15 +87,16 @@
     alt="TM-threemavithana's GitHub stats"
     width="495"
   />
+</p>
 
-  <br/>
-
+<p align="center">
   <img
     src="https://streak-stats.demolab.com?user=TM-threemavithana&theme=default&hide_border=true"
     alt="TM-threemavithana's GitHub streak"
     width="495"
   />
 </p>
+
 
 ## 🏆 Achievements
 
