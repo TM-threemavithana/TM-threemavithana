@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Tharuka Threemavithana</h1>
+<h1 align="center">Hi, I’m Tharuka Threemavithana 👋</h1>
 
 <p align="center">
-  <strong>Computer Engineering Undergraduate @ University of Ruhuna</strong>
+  <strong>Computer Engineering undergraduate at the University of Ruhuna</strong>
 </p>
 
 <p align="center">
-  Backend Engineering · AI Security · Cloud-Native Systems · Sri Lanka 🇱🇰
+  Backend engineering · AI security · Cloud-native systems · Sri Lanka 🇱🇰
 </p>
 
 <p align="center">
@@ -29,193 +29,98 @@
   </a>
 </p>
 
----
+## 👨‍💻 About me
 
-## 👨‍💻 About Me
+I build secure backend and cloud-native systems, with a current focus on infrastructure for AI-powered applications.
 
-I'm a Computer Engineering undergraduate interested in building secure, scalable backend and cloud-native systems.
+My current priorities:
 
-My primary interests are **backend engineering, AI security, distributed systems, and cloud infrastructure**.
+- 🔒 **Building**: [AgentIAM](https://github.com/TM-threemavithana/agentiam), a zero-trust SQL firewall for controlling database access from AI agents
+- ⚙️ **Exploring**: Go systems programming, distributed systems, backend architecture, and security policy enforcement
+- 🤝 **Collaborating**: Backend engineering, cloud infrastructure, and AI-security projects
 
-- 🔒 Building **[AgentIAM](https://github.com/TM-threemavithana/agentiam)** — a zero-trust SQL firewall for controlling database access from LLM-powered agents
-- ⚙️ Exploring **Go systems programming, backend architecture, and distributed systems**
-- 🧠 Learning more about **LLM security, agent security, and retrieval-augmented generation**
-- ☁️ Working with **containers, Kubernetes, cloud infrastructure, and CI/CD**
-- 🔐 Interested in designing software with **security boundaries, policy enforcement, and zero-trust principles**
-- 💬 Primary technologies: **Go · Python · TypeScript · PostgreSQL · Docker · Kubernetes**
+## 🚀 Featured engineering work
 
----
-
-## 🚀 Featured Engineering Work
+These projects represent my strongest work across backend engineering, application security, and AI infrastructure.
 
 ### 🔒 [AgentIAM](https://github.com/TM-threemavithana/agentiam)
 
-A zero-trust semantic SQL firewall designed to protect databases used by LLM-powered agents.
+Built a Go database proxy that parses PostgreSQL and MySQL queries into an Abstract Syntax Tree. Deterministic policies block unsafe queries before they reach the database. The repository includes integration tests, Python client support, and Kubernetes deployment assets.
 
-AgentIAM operates as a database proxy that intercepts incoming SQL, parses queries into an **Abstract Syntax Tree (AST)**, and applies deterministic security policies before queries reach PostgreSQL or MySQL.
-
-**Key areas:** AI Security · Database Security · SQL AST Analysis · Policy Enforcement · Backend Systems
-
-**Tech:** `Go` · `PostgreSQL` · `MySQL` · `Docker` · `Kubernetes`
-
----
+**Core stack:** `Go` · `PostgreSQL` · `MySQL` · `Docker` · `Kubernetes`
 
 ### 🔐 [SecXfer](https://github.com/TM-threemavithana/secxfer)
 
-A zero-trust, end-to-end encrypted file-transfer platform designed around client-side cryptography.
+Built an encrypted file-transfer platform whose central server stores ciphertext only. Local FastAPI services handle Extended Triple Diffie-Hellman (X3DH) key exchange and XChaCha20-Poly1305 encryption. A Next.js dashboard provides the user interface.
 
-The central server stores encrypted data while cryptographic operations and key handling remain on the client side.
-
-**Key areas:** Application Security · End-to-End Encryption · Zero-Trust Architecture · Secure File Transfer
-
-**Tech:** `Python` · `Django` · `FastAPI` · `Next.js` · `X3DH` · `XChaCha20-Poly1305`
-
----
+**Core stack:** `Python` · `Django` · `FastAPI` · `Next.js` · `X3DH` · `XChaCha20-Poly1305`
 
 ### 🧠 [IntelliDocs](https://github.com/TM-threemavithana/intellidocs)
 
-An AI-powered document intelligence platform for interacting with PDFs, DOCX files, and CSV documents using retrieval-augmented generation.
+Built a document intelligence platform for querying PDF, DOCX, and CSV files through retrieval-augmented generation. The Docker-based architecture combines a TypeScript backend, ChromaDB vector search, local Ollama inference, and object storage.
 
-The system combines document processing, vector search, local LLM inference, object storage, and a TypeScript backend.
+**Core stack:** `TypeScript` · `Node.js` · `React` · `ChromaDB` · `Ollama` · `Docker`
 
-**Key areas:** RAG · LLM Applications · Vector Search · Document Processing · Backend Development
+## 📂 More projects
 
-**Tech:** `TypeScript` · `Node.js` · `React` · `ChromaDB` · `Ollama` · `Docker`
-
----
-
-## 📂 More Projects
+Additional work spans cloud infrastructure, DevOps automation, and multi-tenant software.
 
 <details>
 <summary><strong>View additional engineering projects</strong></summary>
 
-<br>
+<br />
 
 ### ☁️ [Smart Inventory](https://github.com/TM-threemavithana/smart-inventory)
 
-Cloud-native inventory and order-management system designed around Azure infrastructure, asynchronous processing, CI/CD, observability, and Infrastructure as Code.
+Developed a cloud-native inventory and order-management system on Azure. It combines asynchronous processing, automated testing, observability, and Infrastructure as Code.
 
-**Key areas:** Cloud Engineering · DevOps · CI/CD · Observability · Infrastructure as Code
-
-**Tech:** `TypeScript` · `Node.js` · `Azure` · `Docker` · `Bicep` · `GitHub Actions`
-
----
+**Core stack:** `TypeScript` · `Node.js` · `Azure` · `Docker` · `Bicep` · `GitHub Actions`
 
 ### 🏢 [Laravel SaaS](https://github.com/TM-threemavithana/laravel-saas)
 
-Multi-tenant Applicant Tracking System for managing job postings, applicants, and candidate workflows.
+Developed a multi-tenant Applicant Tracking System with tenant isolation and role-based access control. Redis queues handle background work, Meilisearch supports full-text search, and MinIO provides S3-compatible storage.
 
-The platform incorporates tenant isolation, role-based access control, asynchronous job processing, full-text search, and S3-compatible object storage.
-
-**Key areas:** Multi-Tenancy · Backend Development · RBAC · Asynchronous Processing · SaaS Architecture
-
-**Tech:** `PHP` · `Laravel` · `MySQL` · `Redis` · `Meilisearch` · `MinIO` · `Docker`
-
----
-
-### 🏷️ [MERN Auction Platform](https://github.com/TM-threemavithana/Mern-Auction-Platform)
-
-A full-stack web application for managing online auctions, users, listings, and bidding workflows.
-
-**Key areas:** Full-Stack Development · REST APIs · Web Applications
-
-**Tech:** `MongoDB` · `Express.js` · `React` · `Node.js`
+**Core stack:** `PHP` · `Laravel` · `MySQL` · `Redis` · `Meilisearch` · `MinIO` · `Docker`
 
 </details>
 
----
+## 🤝 Team and collaborative engineering work
 
-## 🤝 Team & Collaborative Engineering Work
+These projects highlight my contributions within shared codebases and team-owned systems.
 
 ### 🎫 [EventNet Microservices](https://github.com/MadhawaRathnayake/EventNet-micro)
 
-**Payment Service Contributor**
+**Role:** Payment service contributor
 
-Cloud-native event ticketing platform built using a microservices architecture.
+Implemented an independent Node.js payment service backed by PostgreSQL and connected to booking workflows through RabbitMQ. The wider platform uses containerized microservices and automated deployment workflows targeting Azure Kubernetes Service.
 
-My contribution focused on the **Payment Service**, implemented as an independent backend service communicating with other services through RabbitMQ and backed by PostgreSQL.
-
-The overall platform uses containerized microservices and automated deployment workflows targeting Azure Kubernetes Service.
-
-**Key areas:** Microservices · Backend Development · Asynchronous Messaging · Cloud Deployment
-
-**Tech:** `Node.js` · `Express.js` · `PostgreSQL` · `RabbitMQ` · `Docker` · `AKS`
-
----
+**Core stack:** `Node.js` · `Express.js` · `PostgreSQL` · `RabbitMQ` · `Docker` · `AKS`
 
 ### 🔍 [Counterfeit Currency Detection](https://github.com/Asitha0012/Counterfeit-Currency-Detection-using-Image-Processing)
 
-**Contributor**
+**Role:** Computer vision contributor
 
-Computer-vision system for authenticating Sri Lankan Rupee banknotes using classical image-processing techniques.
+Contributed to a deterministic OpenCV pipeline that authenticates Sri Lankan Rupee banknotes by evaluating physical and visual security features.
 
-The project analyzes multiple physical and visual security features using deterministic computer-vision methods.
+**Core stack:** `Python` · `OpenCV` · `Tkinter`
 
-**Key areas:** Computer Vision · Image Processing · Feature Analysis
+## 🛠️ Core technologies
 
-**Tech:** `Python` · `OpenCV` · `Tkinter`
-
----
-
-## 🛠️ Technologies
-
-### Languages
+I use these technologies most often across my current projects:
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-</p>
-
-### Backend & Web
-
-<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-</p>
-
-### Databases & Data Infrastructure
-
-<p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-</p>
-
-### Cloud, DevOps & Infrastructure
-
-<p>
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
----
-
-## 📊 GitHub Activity
-
 <p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=TM-threemavithana&show_icons=true&theme=default&hide_border=true&cache_seconds=86400&icon_color=1F6FEB"
-    alt="Tharuka Threemavithana's GitHub statistics"
-    width="495"
-  />
-</p>
-
----
-
-<p align="center">
-  <i>Interested in backend engineering, AI security, and building secure cloud-native systems.</i>
+  <a href="https://www.linkedin.com/in/tharuka-madhuwantha/">Connect with me on LinkedIn</a>
 </p>
