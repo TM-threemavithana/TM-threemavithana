@@ -8,13 +8,13 @@ I am a Computer Engineering undergraduate at the University of Ruhuna with a foc
 
 - **[ForgeOps](https://github.com/TM-threemavithana/ForgeOps)**: Kubernetes platform engineering lab featuring Argo CD GitOps delivery, correlated OpenTelemetry/Grafana Alloy observability, Kyverno policy enforcement, and automated PostgreSQL disaster recovery.
 - **[Promotion Website](https://github.com/TM-threemavithana/Promotion-Website)** ([team repository](https://github.com/udaraDev/Promotion-Website)): Collaborative web application delivery pipeline; implemented Jenkins declarative CI/CD stages, Ansible configuration playbooks, and Docker Compose deployment environments.
-- **[Faultline](https://github.com/TM-threemavithana/faultline)**: Lightweight Linux SRE diagnostics CLI in Python evaluating CPU/memory utilization, systemd service states, DNS latency, and TCP reachability with structured JSON/Markdown reports.
+- **[Faultline](https://github.com/TM-threemavithana/faultline)**: Lightweight Linux SRE diagnostics CLI in Python evaluating CPU/memory utilization, systemd service states, DNS latency, and TCP reachability with JSON and plain-text incident reports.
 
 ---
 
 ## Systems, Security & Applied Cryptography
 
-- **[AgentIAM](https://github.com/TM-threemavithana/agentiam)**: High-performance database proxy in Go that intercepts PostgreSQL and MySQL wire protocols to prevent AI SQL injection via real-time AST parsing, transaction boundary sanitization, and atomic connection pooling.
+- **[AgentIAM](https://github.com/TM-threemavithana/agentiam)**: High-performance database proxy in Go that intercepts PostgreSQL and MySQL wire protocols to inspect queries and mitigate SQL injection risks via real-time AST parsing, transaction boundary sanitization, and atomic connection pooling.
 - **[SecXfer](https://github.com/TM-threemavithana/secxfer)**: Authenticated file-transfer CLI and service implementing client-side hybrid encryption (X25519, XChaCha20-Poly1305), post-quantum ML-KEM/Kyber key exchange, single-use X3DH prekeys, and Django KDC identity verification.
 - **[Sentinel Edge](https://github.com/TM-threemavithana/sentinel-edge)**: Cloudflare Workers edge security gateway combining SSRF mitigation, transactional rate limiting with Durable Objects, and Workers AI threat analysis.
 
