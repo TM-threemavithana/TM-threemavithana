@@ -1,0 +1,127 @@
+name: Update Profile Visuals
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feat/github-profile-visual-dashboard
+    paths-ignore:
+      - 'README.md'
+      - 'assets/**'
+      - 'profile-3d-contrib/**'
+      - 'docs/**'
+
+concurrency:
+  group: profile-visuals-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-update-visuals:
+    name: Generate and Commit Profile Visuals
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Ensure output directories exist
+        run: mkdir -p assets profile-3d-contrib
+
+      - name: Generate GitHub Stats Card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true"
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Top Programming Languages Card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Activity Graph Card
+        uses: maurodesouza/github-readme-activity-graph-action@6411849745757299611a795fef822a31ca8d1d02 # v1.0.0
+        with:
+          username: ${{ github.repository_owner }}
+          options: "theme=tokyo-night&hide_border=true&area=true"
+          output_path: assets/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate 3D Contribution Calendar
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Generate Contribution Snake Animation
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=#58a6ff
+
+      - name: Generate Profile Trophies
+        id: trophy-gen
+        continue-on-error: true
+        uses: soulteary/github-profile-trophy-action@125fa2a58eb7feac88ee09c9fd4acad45c7c6987 # v1.3.0
+        with:
+          options: "username=${{ github.repository_owner }}&theme=tokyonight&column=5&no-frame=true&margin-w=4"
+          path: assets/trophy.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Report Trophy Generation Status
+        run: |
+          if [ "${{ steps.trophy-gen.outcome }}" != "success" ]; then
+            echo "::warning::Profile trophy generation did not succeed (user repository scope requires PROFILE_STATS_TOKEN secret). Retaining previously generated valid trophy card."
+          else
+            echo "Profile trophies successfully refreshed."
+          fi
+
+      - name: Fetch Contribution Streak Stats Card
+        run: |
+          tmp=$(mktemp)
+          if curl -sSf "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true" -o "$tmp" && [ -s "$tmp" ] && grep -q "<svg" "$tmp" && ! grep -qi "<html" "$tmp"; then
+            mv "$tmp" assets/streak-stats.svg
+            echo "Successfully updated streak-stats.svg"
+          else
+            echo "Streak stats download invalid or failed; retaining cached asset."
+            rm -f "$tmp"
+          fi
+
+      - name: Fetch Skill Icons Grid
+        run: |
+          tmp=$(mktemp)
+          if curl -sSf "https://skillicons.dev/icons?i=go,java,python,ts,js,spring,postgres,mysql,redis,docker,kubernetes,linux,terraform,git,githubactions,react,nextjs&perline=9&theme=dark" -o "$tmp" && [ -s "$tmp" ] && grep -q "<svg" "$tmp" && ! grep -qi "<html" "$tmp"; then
+            mv "$tmp" assets/skill-icons.svg
+            echo "Successfully updated skill-icons.svg"
+          else
+            echo "Skill icons download invalid or failed; retaining cached asset."
+            rm -f "$tmp"
+          fi
+
+      - name: Validate and Commit Generated Assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ profile-3d-contrib/
+          if git diff --staged --quiet; then
+            echo "No visual asset changes to commit."
+          else
+            git commit -m "chore(assets): update profile visual assets [skip ci]"
+            git push
+          fi
