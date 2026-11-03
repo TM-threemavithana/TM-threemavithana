@@ -4,22 +4,35 @@ I am a Computer Engineering undergraduate at the University of Ruhuna with a foc
 
 ---
 
-## Featured Projects
+## Cloud-Native Infrastructure & DevOps
 
-- **[ForgeOps](https://github.com/TM-threemavithana/ForgeOps)**: Kubernetes platform engineering lab featuring Argo CD GitOps delivery, correlated OpenTelemetry and Grafana Alloy observability, Kyverno policy enforcement, and automated disaster recovery drills.
-- **[StreamForge](https://github.com/TM-threemavithana/streamforge)**: Distributed mobility data pipeline using PyArrow-based Parquet processing, Go ingestion, Apache Kafka streaming, and a Java Spring Boot anomaly rules engine.
-- **[AgentIAM](https://github.com/TM-threemavithana/agentiam)**: Go-based SQL proxy that inspects queries and enforces configured security policies for AI agents.
-- **[Faultline](https://github.com/TM-threemavithana/faultline)**: Lightweight Linux SRE diagnostics CLI written in Python that evaluates host resource utilization, systemd services, and network reachability with structured reporting.
-- **[Sentinel Edge](https://github.com/TM-threemavithana/sentinel-edge)**: Cloudflare Workers security gateway combining an operations console, SSRF mitigation, transactional rate limiting with Durable Objects, and Workers AI threat analysis.
-- **[TaskFlow](https://github.com/TM-threemavithana/TaskFlow)**: Modular task management REST API built with Spring Boot, Spring Data JPA Specifications, stateless JWT security, Flyway migrations, and PostgreSQL Testcontainers.
+- **[ForgeOps](https://github.com/TM-threemavithana/ForgeOps)**: Kubernetes platform engineering lab featuring Argo CD GitOps delivery, correlated OpenTelemetry/Grafana Alloy observability, Kyverno policy enforcement, and automated PostgreSQL disaster recovery.
+- **[Promotion Website](https://github.com/TM-threemavithana/Promotion-Website)** ([team repository](https://github.com/udaraDev/Promotion-Website)): Collaborative web application delivery pipeline; implemented Jenkins declarative CI/CD stages, Ansible configuration playbooks, and Docker Compose deployment environments.
+- **[Faultline](https://github.com/TM-threemavithana/faultline)**: Lightweight Linux SRE diagnostics CLI in Python evaluating CPU/memory utilization, systemd service states, DNS latency, and TCP reachability with JSON and plain-text incident reports.
 
 ---
 
-## Additional Projects
+## Systems, Security & Applied Cryptography
 
-- **[SecXfer](https://github.com/TM-threemavithana/secxfer)**: Secure file transfer CLI and relay service implementing Extended Triple Diffie-Hellman (X3DH) prekeys and XChaCha20-Poly1305 authenticated streaming encryption.
-- **[EventNet Microservices](https://github.com/MadhawaRathnayake/EventNet-micro)**: Collaborative university project contributing to backend payment services deployed on Azure Kubernetes Service (Node.js, PostgreSQL, RabbitMQ).
-- **[Counterfeit Currency Detection](https://github.com/Asitha0012/Counterfeit-Currency-Detection-using-Image-Processing)**: Collaborative university project applying computer vision algorithms with OpenCV to verify visual banknote security features.
+- **[AgentIAM](https://github.com/TM-threemavithana/agentiam)**: High-performance database proxy in Go that intercepts PostgreSQL and MySQL wire protocols to inspect queries and mitigate SQL injection risks via real-time AST parsing, transaction boundary sanitization, and atomic connection pooling.
+- **[SecXfer](https://github.com/TM-threemavithana/secxfer)**: Authenticated file-transfer CLI and service implementing client-side hybrid encryption (X25519, XChaCha20-Poly1305), post-quantum ML-KEM/Kyber key exchange, single-use X3DH prekeys, and Django KDC identity verification.
+- **[Sentinel Edge](https://github.com/TM-threemavithana/sentinel-edge)**: Cloudflare Workers edge security gateway combining SSRF mitigation, transactional rate limiting with Durable Objects, and Workers AI threat analysis.
+
+---
+
+## Backend & Distributed Systems
+
+- **[StreamForge](https://github.com/TM-threemavithana/streamforge)**: Distributed stream processing pipeline ingesting mobility telemetry via high-throughput Go services, Apache Kafka streaming, and a Java Spring Boot sliding-window anomaly rules engine.
+- **[TaskFlow](https://github.com/TM-threemavithana/TaskFlow)**: Modular task management REST API built with Java Spring Boot, Spring Data JPA Specifications, stateless JWT security, Flyway database migrations, and PostgreSQL Testcontainers.
+- **[Real-Time Auction Platform](https://github.com/TM-threemavithana/Mern-Auction-Platform)**: Full-stack MERN marketplace engineered for concurrent bidding with WebSocket updates, transaction locks preventing race conditions, and automated auction settlement workers.
+- **[EventNet Microservices](https://github.com/TM-threemavithana/EventNet-micro)** ([team repository](https://github.com/MadhawaRathnayake/EventNet-micro)): Collaborative event booking platform; built payment processing microservice backend routing, integration test suites, and containerized Docker Compose orchestration.
+
+---
+
+## AI & Computer Vision
+
+- **[IntelliDocs](https://github.com/TM-threemavithana/intellidocs)**: Privacy-first local document retrieval and ATS resume parsing platform combining ChromaDB vector storage with local Ollama LLMs, FastAPI, and Next.js.
+- **[Counterfeit Currency Detection](https://github.com/Asitha0012/Counterfeit-Currency-Detection-using-Image-Processing)**: Collaborative banknote authenticity verification system with OpenCV; engineered vertical contour merging for security thread continuity detection and built the experimental latency benchmarking suite.
 
 ---
 
